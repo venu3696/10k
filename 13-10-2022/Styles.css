@@ -1,0 +1,146 @@
+
+  
+#a:link {
+  color: red;
+}
+#a:visited .a{
+  color: green;
+}
+
+#a:hover{
+  color: hotpink;
+}
+
+#a:active{
+  color: blue;
+}
+
+  .dominos{
+    width: 200px;
+    height: 70px;
+  }
+  
+  .menu{
+    margin-bottom: 20px;
+    height: 50px;
+  }
+  .topnav-right{
+    float: right;
+  }
+  nav a{
+    float: left;
+    text-decoration: none;
+    padding: 15px;
+    margin: 8px;
+    background-color: white;
+    color: black;
+    display: inline;
+  }
+  .background{
+    width:1300px;
+    height: 350px;
+    background-color: blue;
+    
+  }
+table{
+  border-collapse: collapse;
+}
+.container{
+  position:relative;
+  text-align: center;
+}
+.center{
+  position: absolute;
+  bottom: 50%;
+  left: 50px;
+  color: white;
+}
+.center-1{
+  position: absolute;
+  top: 38%;
+  left: 50px;
+  color:skyblue;
+}
+.center-2{
+  position: absolute;
+  top: 50%;
+  left: 50px ;
+  text-align: center;
+  padding: 20px 50px;
+  background-color: green;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  background-size: 50px;
+}
+div:hover #online{
+  color: white;
+}
+.center-3{
+  position: absolute;
+  top: 60%;
+  left: 50px;
+}
+.main-1:hover{
+  background-color: lightgray;
+  font-size: 15px;
+  text-decoration: underline;
+}
+.pizza-column{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+.pizza-column img{
+  padding: 10px;
+  height: 150px;
+  width: 700px;  
+}
+.coupons{
+  font-size: x-large;
+  color:darkslategray;
+}
+.section1 p{
+  margin: 10px 20px 10px 20px;
+  border-color: red;
+  background-color: lightslategrey;
+  border-style: double;
+  border-radius: 10px;
+  border-bottom-style: ridge;
+  margin-top: 50px;
+}
+.section2 p{
+  background-color: yellowgreen;
+  color: red;
+  border-color: darkblue;
+  border-style: dotted;
+  border-top-style: solid;
+  margin:10px 20px 10px 20px;
+  padding-left: 10px;
+  border:5px solid darkblue;
+  border-radius: 5px;
+}
+h2{
+  color: green;
+}
+footer{
+  background-color: slategray;
+}
+button{
+  border: 5px solid red;
+  margin: 5px;
+  background-color: blue;
+  color: white;
+}
+button:active{
+  color:blue;
+}
+footer{
+  width: auto;
+  height: 100px;
+  padding: 20px;
+  padding-left: 33%;
+}
+footer:hover{
+  color: lawngreen;
+}
