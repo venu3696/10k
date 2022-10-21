@@ -1,0 +1,23 @@
+header{
+    background-color: #ddd;
+    height: 100px;
+    width: 100%;
+}
+.container{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+nav a{
+    float: left ;
+    color: red;
+    padding: 15px;
+    flex-basis: 18px;
+    margin-top: 20px;
+    font-size: larger;
+    justify-content: center;
+}
+a:hover{
+    color: #fff;
+}

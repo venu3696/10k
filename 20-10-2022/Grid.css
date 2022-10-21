@@ -1,0 +1,76 @@
+.container2{
+
+    padding: 10px;
+    background-color: silver;
+}
+.nav1{
+   display: inline-block;
+   background-color: #ddd;
+   border: 2px solid black;
+   padding: 10px;
+   margin: 25px;
+}
+
+
+.container{
+
+    padding: 10px;
+    background-color: blue;
+}
+.nav{
+   display: inline-block;
+   background-color: #ddd;
+   border: 2px solid black;
+   padding: 10px;
+   margin: 10px;
+}
+table{
+    width: 100%;
+}
+td{
+    text-align: center;
+    margin:50px;
+}
+
+/*
+#home1{
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+}
+*/
+
+  
+
+
+.container3{
+    display:grid;
+    grid-template-columns: auto auto auto ;
+    /*
+    grid-template-rows: 100px auto 100px;
+    */
+    padding: 5px;
+    background-color: red;
+    row-gap: 10px;
+    column-gap: 5px;
+    
+} 
+.nav3{
+   background-color: orange;
+   border: 1px solid black;
+   padding: 5px;
+   margin: 10px;
+   text-align: center;
+}
+.item1{
+    
+    grid-column: 2/4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-area: 1/2/4/3;
+    /* rowstart/colstart/rowend/colend;
+   [grid-row-start and grid-row-end] And
+   [gitd-column-start and grid-column-end] these two properties are similar to GRID AREA */
+
+}
+

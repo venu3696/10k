@@ -1,0 +1,114 @@
+header{
+    position: sticky;
+    top: 20px;
+    height: 45px;
+}
+.heading h1{
+    font-style: italic;
+    text-align: center;
+    color: violet;
+}
+.container{
+    display: flex;
+    background-color: black;
+    height: 40px;
+}
+nav a{
+    padding: 18px;
+    color: white;
+    flex-basis: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav{
+    margin-top: 10px;
+}
+nav a:hover{
+    color:green
+} 
+*{
+    box-sizing: border-box;
+}
+.main-container::after{
+    display:table;
+    justify-content: center;
+    clear: both ;
+}
+.container1{
+    float: left;
+    width: 33.3%;
+    height: auto 0;
+    padding: 15px;
+    text-indent: 30px;
+    text-align: justify;
+}
+.container1 h2{
+    font-style: italic;
+    color: brown;
+}
+.container1 img{
+    height: 200px;
+    width: 400px;
+}
+#newblog img{
+    width: 400px;
+    height: 200px ;
+}
+
+#newblog{
+    display: flex;
+ }
+ #newblog1{
+     float: left;
+     padding: 15px;
+     background-image: linear-gradient(15deg, blue, white, orange, pink);
+     text-align: justify;
+     font-size: large;
+ }
+ ul{
+    list-style-type: none;
+ }
+ #newblog ul li::before{
+    content:"📌";
+    margin-right: 10px;
+ }
+
+ .trainjourney img{
+    width: 100%;
+    position: absolute;
+    left:0px;
+    top: 0px;
+    z-index: -1;
+}
+.trainjourney1 img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top:1300px;
+    z-index: -1;
+}
+.trainjourney1 p{
+     color: red;
+     font-size: large;
+     font-weight: bold;
+     height: 200px;
+     overflow: scroll;
+}
+.trainjourney1 p:hover{
+    color: black;
+}
+footer{
+    background-color: rgb(27, 27, 32);
+}
+.copyright a{
+    text-align: center;
+    display: table;
+    padding: 20px;
+    margin-left: 500px;
+    text-decoration: none;
+    color: white;
+}
+.copyright a:hover{
+    color: blue;
+}

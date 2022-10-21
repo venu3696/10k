@@ -1,0 +1,22 @@
+header{
+    background-color: yellow;
+   margin: 20px;
+    border: 2px solid black;
+}
+    
+
+.nav2-continer{
+    display: flex;
+    flex-direction: row-reverse;
+}
+ nav{
+    padding: 20x;
+    color: white;
+   margin: 10px;
+   text-decoration: none;
+   border: 2px solid blue;
+   background-color: #ddd;
+}
+ a:hover{
+    color: red;
+}

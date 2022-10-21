@@ -40,19 +40,12 @@ nav{
     cursor: pointer;
   }
   
-
-
-main{
-    height: 410%;
-    width: auto 0;
-}
-
 .container{
     display: flex;
 }
 .child-1{
     width: 100px;
-    height: 100px;
+    height: auto;
     padding: 40px;
     flex-basis: 300px;
 }
